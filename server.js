@@ -20,3 +20,6 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, "0.0.0.0", () => {
     console.log(`Server running on port ${PORT}`);
 });
+//curl -X POST http://localhost:3000/stop
+//curl -X POST https://prank-web-2.onrender.com/stop
+//curl --ssl-no-revoke -X POST https://prank-web-2.onrender.com/stop
